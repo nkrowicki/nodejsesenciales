@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'build-doc' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose run-script [ 'prebuild-doc', 'build-doc', 'postbuild-doc' ]
+5 info lifecycle nodejsesenciales@1.0.0~prebuild-doc: nodejsesenciales@1.0.0
+6 silly lifecycle nodejsesenciales@1.0.0~prebuild-doc: no script for prebuild-doc, continuing
+7 info lifecycle nodejsesenciales@1.0.0~build-doc: nodejsesenciales@1.0.0
+8 verbose lifecycle nodejsesenciales@1.0.0~build-doc: unsafe-perm in lifecycle true
+9 verbose lifecycle nodejsesenciales@1.0.0~build-doc: PATH: /usr/share/npm/bin/node-gyp-bin:/home/nahuel/dev/platziNode/nodejsesenciales/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+10 verbose lifecycle nodejsesenciales@1.0.0~build-doc: CWD: /home/nahuel/dev/platziNode/nodejsesenciales
+11 silly lifecycle nodejsesenciales@1.0.0~build-doc: Args: [ '-c', 'jsdoc -c -r jsdoc.json -- .' ]
+12 silly lifecycle nodejsesenciales@1.0.0~build-doc: Returned: code: 1  signal: null
+13 info lifecycle nodejsesenciales@1.0.0~build-doc: Failed to exec build-doc script
+14 verbose stack Error: nodejsesenciales@1.0.0 build-doc: `jsdoc -c -r jsdoc.json -- .`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at EventEmitter.emit (events.js:214:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at ChildProcess.emit (events.js:214:7)
+14 verbose stack     at maybeClose (internal/child_process.js:925:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+15 verbose pkgid nodejsesenciales@1.0.0
+16 verbose cwd /home/nahuel/dev/platziNode/nodejsesenciales
+17 error Linux 4.15.0-45-generic
+18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "build-doc"
+19 error node v8.10.0
+20 error npm  v3.5.2
+21 error code ELIFECYCLE
+22 error nodejsesenciales@1.0.0 build-doc: `jsdoc -c -r jsdoc.json -- .`
+22 error Exit status 1
+23 error Failed at the nodejsesenciales@1.0.0 build-doc script 'jsdoc -c -r jsdoc.json -- .'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the nodejsesenciales package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     jsdoc -c -r jsdoc.json -- .
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs nodejsesenciales
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls nodejsesenciales
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
